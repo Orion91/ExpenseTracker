@@ -1,8 +1,8 @@
-import AboutPage from '../pages/AboutPage';
-import DashboardPage from '../pages/DashboardPage';
-import ExpensesPage from '../pages/ExpensesPage';
+import AboutPage from 'pages/AboutPage';
+import DashboardPage from 'pages/DashboardPage';
+import ExpensesPage from 'pages/ExpensesPage';
 import { Routes, Route } from 'react-router-dom';
-import { routes } from './routes';
+import { routes } from 'auth/routes';
 
 export default function AppRoutes() {
   return (

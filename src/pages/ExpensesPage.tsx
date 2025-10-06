@@ -1,6 +1,6 @@
 import { Container, Typography, Box } from '@mui/material';
-import { expensesDummyData } from '../data';
-import ExpenseCardComponent from '../components/ExpenseCardComponent';
+import { expensesDummyData } from 'data';
+import ExpenseCardComponent from 'components/ExpenseCardComponent';
 
 function ExpensesPage() {
   return (

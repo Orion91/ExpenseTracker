@@ -1,8 +1,6 @@
 import { Paper, Typography, Box } from '@mui/material';
 export default function ExpenseCardComponent({ title, amount, date }) {
   return (
-    //ogarnąć bezwzględne importy
-    //poczytać o styled components
     <Paper
       elevation={2}
       sx={{
