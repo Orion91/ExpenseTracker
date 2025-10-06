@@ -10,6 +10,17 @@ function ExpensesPage() {
         gutterBottom>
         Expenses
       </Typography>
+      <Box
+        sx={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: 2,
+          justifyContent: 'flex-start',
+        }}>
+        {expensesDummyData.map((expense) => (
+          <ExpenseCardComponent {...expense} />
+        ))}
+      </Box>
     </Container>
   );
 }
